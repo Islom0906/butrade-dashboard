@@ -76,7 +76,7 @@ const JWTAuthAuthProvider = ({children}) => {
                 user: undefined,
                 isLoading: false,
                 isAuthenticated: true,
-              })
+        })
       }
       setAuthToken(token);
       jwtAxios
